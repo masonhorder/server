@@ -1,0 +1,337 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background-color: #CEFFF9;
+}
+body {
+  padding:0;
+  margin:0;
+}
+
+.container {
+  font-family: Avenir;
+  margin-top: -750px;
+  background-color: #CEFFF9;
+  z-index: 5;
+}
+
+
+
+.header{
+  font-family: Avenir;
+}
+
+#name{
+  font-family: Avenir;
+  color: #1DCCB7;
+}
+
+
+
+a:hover{
+  /* line-height: 1; */
+  text-decoration: none;
+}
+
+
+.headerlist{
+  position: absolute;
+  background-color: #CEFFF9;
+  display: inline;
+  width: 99.5%;
+  opacity: 1;
+  z-index: 6;
+}
+#name{
+  font-size: 28px;
+  font-style: normal;
+  float: left;
+  margin-left: 170px;
+  top: 15px;
+  position: relative;
+  text-decoration: none;
+}
+
+.headerlist{
+  position: absolute;
+  background-color: #118686;
+  display: inline;
+  padding-right: 160px;
+  width: 98.9%;
+  /* opacity: .8; */
+  z-index: 6;
+  padding-top: 20px;
+  top: -10px;
+}
+
+.headerlist ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 20px;
+
+}
+.headerlist ul a{
+  text-decoration: none;
+  float: right;
+  color: #f0f0f0;
+  margin: 20px;
+  font-size: 15px;
+}
+html{
+  font-family: Aevnir;
+}
+li {
+  display: inline;
+}
+
+
+.body{
+  /* width: 80%; */
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 900px;
+  color: #2e2e2e;
+}
+
+
+
+.bigBlue{
+  font-size: 30px;
+  color: #1DCCB7;
+}
+
+.giantBlue{
+  font-size: 80px;
+  color: #1DCCB7;
+}
+
+
+.bottomSection{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 100px;
+  background-color: #118686;
+  
+}
+
+.bottomSection ul{
+  text-align: center;
+}
+
+.bottomSection ul li a{
+  list-style: none;
+  text-decoration: none;
+  color:#1DCCB7;
+}
+
+.bottomSection ul li{
+  margin:19px;
+}
+
+
+.section{
+  margin:auto;
+  width: 40%
+}
+
+.table{
+  margin: auto;
+}
+
+
+.item{
+  display:inline-table;
+  margin:1%;
+  height: 400px;
+  background-color: #fafafa;
+  width:22%;
+  /* margin:auto; */
+  border-radius: 30px;
+  box-shadow: 2px 2px 5px #888888;
+  
+}
+
+.item:hover{
+  box-shadow: 5px 5px 8px #888888;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* on a phone */
+@media screen and (max-width: 700px) {
+
+
+  .linkNoStyle{
+    text-decoration: none;
+
+  }
+
+
+
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: #CEFFF9;
+  }
+  body {
+    padding:0;
+    margin:0;
+  }
+
+  .container {
+    font-family: Avenir;
+    margin-top: -750px;
+    background-color: #CEFFF9;
+    z-index: 5;
+  }
+
+
+
+  .header{
+    font-family: Avenir;
+  }
+
+
+
+
+  a:hover{
+    line-height: 1;
+    text-decoration: none;
+  }
+
+
+
+
+  #name{
+    font-size: 28px;
+    font-style: normal;
+    float: none;
+    /* margin-left: 0px; */
+    /* top: 0px; */
+    position: none;
+    font-family: Avenir;
+    color: #1DCCB7;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-decoration: none;
+    
+  }
+
+  .headerlist{
+    text-decoration: none;
+    text-align: center;
+    float: center;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: none;
+    background-color: #118686;
+    display: block;
+    /* padding-right: 160px; */
+    z-index: 6;
+    margin-top: -45px;
+  }
+
+  .headerlist ul{
+    width: auto;
+
+    /* display: none; */
+    list-style-type: none;
+    float: none;
+    margin-left: 0px;
+    margin-right: 17px;
+    margin-top: none;
+
+  }
+
+  .headerlist ul a{
+    
+    text-decoration: none;
+    float: none;
+    color: #f0f0f0;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    display: inline;
+  }
+  html{
+    font-family: Aevnir;
+  }
+  li {
+    display: inline-block;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .body{
+    /* width: 80%; */
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1000px;
+  }
+  
+
+
+
+
+
+
+  .table{
+    margin: auto;
+  }
+  
+  
+  .item{
+    display:inline-table;
+    margin:4%;
+    height: 400px;
+    background-color: #fafafa;
+    width:70%;
+    /* margin:auto; */
+    border-radius: 30px;
+  }
+
+
+  
+}
+

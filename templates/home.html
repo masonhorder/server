@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-60ZC9PFKQZ"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-60ZC9PFKQZ');
+  </script>
+  <meta charset="utf-8">
+  <title>Mason Horder - Developer and Entreprenuer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}" />
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="header">
+      <div class="headerlist">
+        <a href="index.html" class="linkNoStyle" style="text-decoration: none">
+          <h2 id="name">Mason<span class="titleHighlight">Horder</span></h2>
+        </a>
+        <ul>
+          <!-- <li><a class="noShow" href="" target="blank">Instagram</a></li> -->
+          <li><a class="noShow" href="" target="blank">My Projects</a></li>
+          <!-- <li><a class="noShow" href="" target="blank">About Me</a></li> -->
+          <li><a class="noShow" href="https://www.fiverr.com/masonhorder?up_rollout=true" target="blank">Freelance</a></li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="body">
+
+
+
+      
+
+      <div class="upper">
+        <p class="upperTitle">Developer<br>& entreprenuer</p>
+        <img class="upperImage" src="{{url_for('static', filename='images/home/sitemedia.png')}}">
+      </div>
+
+      <!-- <div class="downloadContainer">
+        <div class="downloadPromo">Download <strong>Panoramic Slicer</strong> on the Appstore or Play Store(Coming Soon)</div><a class="downloadLink" href="https://apps.apple.com/bn/app/panoramic-slicer/id1575445272" target="blank">Download on App Store</a>
+      </div> -->
+
+
+      <div class="row">
+        <div class="description left">
+          <h3>Hey There!</h3>
+          My name is Mason, I am a developer and entreprenuer. Currently I'm an unemployed High Schooler having fun creating things with coding, 3D printing, hardware electronics and more. Along with these hobbies I really enjoy building and flying FPV drones.<br><br>I'm creating this site for me to share my personal work and things I've learned through over 6 years of coding. I hope you can grow your knowledge with me.          
+        </div>
+        <div class="right socials">
+
+          <div class="social" onclick="window.open('https://instagram.com/masonh.dev', '_blank');">
+            <a href="#" class="fa fa-instagram fa-3x"></a>My Instagram: Enjoy snippets of projects
+          </div>
+          <div class="social" onclick="window.open('https://github.com/masonhorder', '_blank');">
+            <a href="#" class="fa fa-github fa-3x"></a>Github: Check out my previous work
+          </div>
+          <div class="social" onclick="window.open('https://fiverr.com/masonhorder', '_blank');">
+            <a href="#" class="fa fa-fiverr fa-3x">fi</a>Fiverr: Freelance me
+          </div>
+          <div class="social" onclick="window.open('https://apps.apple.com/tc/developer/che-horder/id1544576576', '_blank');">
+            <a href="#" class="fa fa-apple fa-3x"></a>Appstore: Check out my apps on the Appstore
+          </div>
+        </div>
+          
+      </div>
+      <div class="projectBody">
+        <h3>Projects &#8250;</h3>
+        <div class="projectContainer">
+          <div class = "item" onclick="pano()">
+
+            <h2>Pano Slicer</h2>
+            <p>Social Media tool to split up panoramics</p>
+            <img src="{{url_for('static', filename='images/home/pano.png')}}" alt="Pano Slicer Screenshot" height="250px">
+          
+          </div>
+
+          <div class = "item" onclick="filament()">
+
+            <h2>Filament Left</h2>
+            <p>An easy way to calculate filament left on a spool</p>
+            <img src="{{url_for('static', filename='images/home/filament-left.png')}}" alt="Filament Left App Screen Shot" height="250px">
+          
+          </div>
+
+
+          <div class = "item" onclick="coding()">
+
+            <h2>Coding Log</h2>
+            <p>Track how much you code!</p>
+            <img src="{{url_for('static', filename='images/home/coding-log.png')}}" alt="Coding Log App Screen Shot" height="250px">
+
+          </div>
+
+
+
+          <div class = "item" onclick="rcTank()">
+
+            <h2>Tank</h2>
+            <p>RC tank</p>
+            <img src="{{url_for('static', filename='images/home/tank.png')}}" alt="tank photo" height="230px">
+            
+
+          </div>
+
+          <div class = "item" onclick="garage();">
+
+            <h2>Smart Garage(Hackathon)</h2>
+            <p>Hackathon project: control your garage with your phone</p>
+            <img src="{{url_for('static', filename='images/home/garage.jpg')}}" alt="garage screenshot" height="230px">
+
+          </div>
+
+          <div class = "item" onclick="recipe();">
+
+            <h2>Recipe App(Hackathon)</h2>
+            <p>Easily manage all your recipes on your phone</p>
+            <img src="{{url_for('static', filename='images/home/recipeworld.png')}}" alt="recipe screenshot" height="230px">
+
+          </div>
+
+
+          <div class = "item" onclick="">
+
+            <h2>FPV Drone</h2>
+            <p>Since the beginning of 2021 I have started to take a liking for FPV. I enjoy to shoot freestyle and cinematic type videos. I maninly publish to instagram reels.</p>
+            <img src="{{url_for('static', filename='images/home/fpv.JPEG')}}" alt="Pictire of my drone" height="190px">
+
+          </div>
+
+
+          <!-- <div class = "item" onclick="etsy();">
+
+            <h2>Etsy Shop</h2>
+            <p>A place where you can buy my products which supports me, enjoy 15% off(applies automatically when clicking this box)</p>
+            <img src="assets/etsy.jpg" alt="Etsy Profile Photo" height="190px">
+
+          </div> -->
+        </div>
+      </div>
+
+      
+
+
+      
+
+
+
+
+
+    </div>
+  </div>
+  <script>
+    function rcTank(){
+      window.open("https://instructables.com/RC-Controlled-Tank/", "_blank");
+    }
+    function garage(){
+      window.open("https://devpost.com/software/smart-garage-by-the-brogrammers", "_blank");
+    }
+    function etsy(){
+      window.open("https://www.etsy.com/shop/Mason3dPrintsStudio?coupon=FGJSK15", "_blank");
+    }
+    function recipe(){
+      window.open("https://devpost.com/software/recipeworld?ref_content=user-portfolio&ref_feature=in_progress", "_blank");
+    }
+    function coding(){
+      window.open("http://masonhorder.tech/Coding-Log", "_blank");
+    }
+    function filament(){
+      window.open("http://masonhorder.tech/Filament-Left", "_blank");
+    }
+    function pano(){
+      window.open("http://masonhorder.tech/pano-slicer", "_blank");
+    }
+  </script>
+</body>
+
+</html>
